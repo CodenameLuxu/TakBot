@@ -4,8 +4,6 @@ TIME_MORNING = 'MRN'
 TIME_AFTERNOON = 'AFT'
 TIME_EVENING = 'MRN'
 
-WeatherAPIKey = '2a74dd40ef6a0776084962488a759564'
-
 
 DEFAULT_RESPONSE = " Can't understand input"
 # ADJ: adjective
@@ -44,3 +42,12 @@ TAG_CONNECTIVE = TAG_CONJ
 Tag_Question = "QUESTION"
 Tag_Weather = "WEATHER"
 Tag_Greeting = "GREETING"
+Tag_Action = "ACTION"
+Tag_Get = "GET"
+Tag_Location = "LOCATION"
+Tag_Email = "EMAIL"
+Tag_Deliver = "DELIVER"
+
+
+
+Replace_IP = "<IPADRESS>"

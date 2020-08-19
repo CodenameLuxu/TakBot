@@ -1,7 +1,7 @@
 
 
 from src.TakBot.StatementObj import StatementObj
-from src.TakBot.WeatherService import WeatherServiceAPI
+from src.Service.WeatherService import WeatherServiceAPI
 from src.TakBot import TakConstants as Tags
 
 def getResponse(statementObj):

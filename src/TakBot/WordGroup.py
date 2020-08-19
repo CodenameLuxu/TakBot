@@ -12,7 +12,17 @@ class WordGroup:
     Category_Greeting_All.extend(Category_Greeting_Afternoon)
     Category_Greeting_All.extend(Category_Greeting_Evening)
 
+    Category_Accept = ['yes','y','confirm','consent','agress']
 
-    Category_Question = ['who','what','when','why','how']
+
+    Category_Question = ['who','what','when','why','how','check']
     Category_Weather = ['weather','rain','clear','cold','hot']
     Category_Location = ['inside','outside','indoor','outdoor']
+    Category_Travel = ['go to', 'visit','']
+    Category_Place = ['museum','cafe','shop' ,'store','cinema','arcade','shop','market','restaurant' , ' bar ','club']
+
+
+    Category_Action  = ["send"]
+    Category_Retrieve = ['get','find','search','obtain','take']
+    Category_Delivery  = ['send', 'deliver','drop','dispatch','post','bring','pass','give']
+    Category_Medium = ["email","mail"]
